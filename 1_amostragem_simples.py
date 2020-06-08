@@ -15,5 +15,8 @@ np.random.seed(2345)
 #P = Probabilidade de ele sortear 0 é de 50% e 1 é de 50% 
 amostra = np.random.choice(a = [0, 1], size = 150, replace = True, p= [0.5,0.5])
 
-#mostra a quantidade de 0 ou 1 que a amostra extratificou
+#mostra a quantidade de 0 ou 1 da amostra
 print(len(amostra[amostra==0]))
+
+
+#Esse tipo de amostra serve para pegar um percentual aleatório do todo

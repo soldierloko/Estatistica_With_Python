@@ -36,4 +36,6 @@ infert = pd.read_csv(r'C:\Users\bruno\OneDrive\Python\Estatistica_WiTh_Python\Es
 
 x1, _, y1, _ = train_test_split(infert.iloc[:,2:9], infert.iloc[:,1], test_size = 0.6, stratify = infert.iloc[:,1])
 
+#Esse tipo de amostra serve para pegar uma amostra de acordo com os atributos ou critérios estabelecidos
+
 
