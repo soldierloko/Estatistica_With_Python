@@ -9,5 +9,5 @@ dados = norm.rvs(size = 100)
 
 stats.probplot(dados, plot = plt)
 
-#Teste de Shapiro para saber se é umas distribuioção nomal...se maior que 0,5 = normal
+#Teste de Shapiro para saber se é umas distribuioção nomal...se maior que 0,5 = norma
 stats.shapiro(dados)
